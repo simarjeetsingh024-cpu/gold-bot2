@@ -1,0 +1,26 @@
+{
+  "oanda": {
+    "base_url": "https://api-fxpractice.oanda.com",
+    "account_id": "YOUR_ACCOUNT_ID",
+    "api_key": "YOUR_API_KEY",
+    "instrument": "XAU_USD"
+  },
+  "risk": {
+    "risk_per_trade_pct": 0.5,
+    "max_trades_per_day": 3,
+    "max_daily_loss_r": 3,
+    "default_rr": 2.0,
+    "min_sl_pips": 5,
+    "max_sl_pips": 25
+  },
+  "sessions_uk": {
+    "london_start": "08:00",
+    "london_end": "10:30",
+    "ny_start": "13:30",
+    "ny_end": "16:30"
+  },
+  "news": {
+    "block_before_minutes": 45,
+    "block_after_minutes": 30
+  }
+}
